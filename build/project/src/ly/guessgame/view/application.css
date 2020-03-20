@@ -1,0 +1,44 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-base:  #C6C6C6;
+	-fx-background-color:rgb(198,198,198);
+}
+
+.menu {
+    -fx-background-color: #2FCC85;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+}
+
+.context-menu { /* this is the drop down menu*/
+    -fx-background-color: #2FCC85;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 0.333333em 0.083333em 0.333333em 0.083333em; /* 4 1 8 1 */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 12, 0.0 , 0 , 8 );
+}
+
+.menu-item {
+    -fx-background-color:  #2FCC85;
+ 	-fx-padding: 0.333333em 0.41777em 0.333333em 0.41777em;  /* 4 5 4 5 */
+}
+
+.button {
+	-fx-background-color: #2FCC85;
+}
+
+.button:hover{
+	-fx-background-color: #6FDDAC;
+	}
+
+/*.button:armed{
+	-fx-background-color: #4ED599;
+}
+
+.button:focused {
+	-fx-background-color: #30CA86;
+} */
+
+.dialog-pane {
+	-fx-background-color: #C6C6C6;
+}
+
